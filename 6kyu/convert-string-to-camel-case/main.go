@@ -42,6 +42,8 @@ func capitalize(text string) string {
 	return string(r-32) + text[size:]
 }
 
+// -------- REFACTORED VERSION --------
+
 // func ToCamelCase(s string) string {
 // 	// Разделяем строку по символам '_' или '-'
 // 	re := regexp.MustCompile(`[_-]+`)
